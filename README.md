@@ -1,10 +1,10 @@
-## android-database-sqlcipher crypto connection core glue JAR build
+## android-database-sqlcipher crypto connection core glue PRO-FREE JAR build
 
-(build from source)
+LICENSING NOTE: BUILD INCLUDES [`github:brodybits/sqlite-fake-crypto-batch-connection-core-pro-free-2020-01`](https://github.com/brodybits/sqlite-fake-crypto-batch-connection-core-pro-free-2020-01) under GPL v3 or COMMERCIAL LICENSE OPTIONS
 
 based on [`github:sqlcipher/android-database-sqlcipher`](https://github.com/sqlcipher/android-database-sqlcipher), with `android.database.sqlite` C++ and Java classes removed
 
-with SCCoreGlue API support built from the JNI/NDK source here: [`github:brodybits/sqlite-fake-crypto-batch-connection-core`](https://github.com/brodybits/sqlite-fake-crypto-batch-connection-core)
+with SCCoreGlue API pro-free support built from the JNI/NDK source here: [`github:brodybits/sqlite-fake-crypto-batch-connection-core-pro-free-2020-01`](https://github.com/brodybits/sqlite-fake-crypto-batch-connection-core-pro-free-2020-01)
 
 with additional enhancment(s) by @brodybits from [`github:brodybits/android-database-sqlcipher#v4.x-extra-durable-jar-build`](https://github.com/brodybits/android-database-sqlcipher/tree/v4.x-extra-durable-jar-build):
 
@@ -220,5 +220,9 @@ index 275371a..dcdbfe4 100644
 then build and run the clone using Android Studio or according to the [instructions here](https://developer.android.com/studio/build/building-cmdline)
 
 ### License
+
+SEE BUILD LICENSE NOTE ABOVE - BUILD INCLUDES [`github:brodybits/sqlite-fake-crypto-batch-connection-core-pro-free-2020-01`](https://github.com/brodybits/sqlite-fake-crypto-batch-connection-core-pro-free-2020-01) with GPL v3 or COMMERCIAL LICENSE OPTIONS
+
+for SQLCipher:
 
 The Android support ~~libraries~~ _build scripts_ are licensed under Apache 2.0, in line with the Android OS code on which they are based. The SQLCipher code itself is licensed under a BSD-style license from Zetetic LLC. Finally, the original SQLite code itself is in the public domain.

@@ -3,7 +3,7 @@ MY_PATH := $(LOCAL_PATH)
 include $(CLEAR_VARS)
 LOCAL_PATH := $(MY_PATH)
 
-SCC_ROOT := $(LOCAL_PATH)/../external/sqlite-fake-crypto-batch-connection-core
+SCC_ROOT := $(LOCAL_PATH)/../external/sqlite-fake-crypto-batch-connection-core-pro-free
 
 LOCAL_CFLAGS +=  $(SQLCIPHER_CFLAGS) $(SQLCIPHER_OTHER_CFLAGS)
 LOCAL_C_INCLUDES += $(LOCAL_PATH)
