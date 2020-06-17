@@ -14,3 +14,4 @@ android-database-sqlcipher/src/main/cpp/sqlite3.[c,h]
 local.properties
 *.jar
 lib
+*.class

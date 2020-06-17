@@ -1,12 +1,14 @@
-## extra-durable android-database-sqlcipher core NDK JAR build
+## android-database-sqlcipher crypto connection core glue JAR build
 
 (build from source)
 
 based on [`github:sqlcipher/android-database-sqlcipher`](https://github.com/sqlcipher/android-database-sqlcipher), with `android.database.sqlite` C++ and Java classes removed
 
+with SCCoreGlue API support built from the JNI/NDK source in: [`github:brodybits/sqlite-fake-crypto-batch-connection-core`](https://github.com/brodybits/sqlite-fake-crypto-batch-connection-core)
+
 with additional enhancment(s) by @brodybits from [`github:brodybits/android-database-sqlcipher#v4.x-extra-durable-jar-build`](https://github.com/brodybits/android-database-sqlcipher/tree/v4.x-extra-durable-jar-build):
 
-- able to build JAR with the NDK libs, as documented below
+- able to build JAR, as documented below
 - extra durable with `-DSQLITE_DEFAULT_SYNCHRONOUS=3` build setting in `build.gradle`
 
 <!-- N/A - NOT SUPPORTED with this JAR build:
