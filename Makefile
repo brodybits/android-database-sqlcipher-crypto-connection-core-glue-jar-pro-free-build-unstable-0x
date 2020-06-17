@@ -6,8 +6,8 @@ GRADLE = ./gradlew
 # for JAR build with JNI NDK lib build & glue Java:
 JNI_LIB_BUILD_PATH = android-database-sqlcipher/build/intermediates/transforms/stripDebugSymbol/release/0/lib
 CLEAN_JAR_BUILD = rm -rf io lib *.jar
-JNI_LIB_JAR_FILENAME = android-database-sqlcipher-crypto-connection-core-glue.jar
-GLUE_JAVA_ROOT = android-database-sqlcipher/src/main/external/sqlite-fake-crypto-batch-connection-core/sccglue/java
+JNI_LIB_JAR_FILENAME = android-database-sqlcipher-crypto-connection-core-glue-pro-free.jar
+GLUE_JAVA_ROOT = android-database-sqlcipher/src/main/external/sqlite-fake-crypto-batch-connection-core-pro-free/sccglue/java
 
 init:
 	git submodule update --init
